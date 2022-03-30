@@ -95,6 +95,23 @@ function addModalFunc(id) {
         
                         </div>
                     </div>
+                    <div class = "modal__footer">
+                        <div class = "modal__footLeft">
+                            <button  class = "modal__message"><i class='bx bx-heart'></i></button>
+                            <button  class = "modal__message"><i class='bx bx-message-rounded bx-flip-horizontal' ></i></button>
+                            <button  class = "modal__message"><i class='bx bxl-telegram'></i></button>
+                        </div>
+                        <div class = "modal__footRight">
+                            <button  class = "modal__bookmark"><i class='bx bx-bookmark'></i></button>
+                        </div>
+                    </div>
+                    <div class = "modal__footerInput">
+                        <form class = "modal__form">
+                            <button  class = "modal__smile"><i class='bx bx-smile'></i></button>
+                            <input class = "footer-input" type="text" placeholder="Add a comment...">
+                            <button class="modal__post" type="submit">Post</button>
+                        </form>
+                    </div>
                 </div>
             </div>
             `
@@ -131,8 +148,24 @@ function addModalFunc(id) {
                             </a>
                             <p>${item.desc}
                             </p>
-        
                         </div>
+                    </div>
+                    <div class = "modal__footer">
+                        <div class = "modal__footLeft">
+                            <button  class = "modal__message"><i class='bx bx-heart'></i></button>
+                            <button  class = "modal__message"><i class='bx bx-message-rounded bx-flip-horizontal' ></i></button>
+                            <button  class = "modal__message"><i class='bx bxl-telegram'></i></button>
+                        </div>
+                        <div class = "modal__footRight">
+                            <button  class = "modal__bookmark"><i class='bx bx-bookmark'></i></button>
+                        </div>
+                    </div>
+                    <div class = "modal__footerInput">
+                        <form class = "modal__form">
+                            <button  class = "modal__smile"><i class='bx bx-smile'></i></button>
+                            <input class = "footer-input" type="text" placeholder="Add a comment...">
+                            <button class="modal__post" type="submit">Post</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -170,8 +203,24 @@ function addModalFunc(id) {
                             </a>
                             <p>${item.desc}
                             </p>
-        
                         </div>
+                    </div>
+                    <div class = "modal__footer">
+                    <div class = "modal__footLeft">
+                        <button  class = "modal__message" onclick = "heartLikeBnt(${item.like})"><i class='bx bx-heart'></i></button>
+                        <button  class = "modal__message"><i class='bx bx-message-rounded bx-flip-horizontal' ></i></button>
+                        <button  class = "modal__message"><i class='bx bxl-telegram'></i></button>
+                    </div>
+                        <div class = "modal__footRight">
+                            <button  class = "modal__bookmark"><i class='bx bx-bookmark'></i></button>
+                        </div>
+                    </div>  
+                    <div class = "modal__footerInput">
+                        <form class = "modal__form">
+                            <button class = "modal__smile"><i class='bx bx-smile'></i></button>
+                            <input class = "footer-input" type="text" placeholder="Add a comment...">
+                            <button class="modal__post" type="submit">Post</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -182,7 +231,14 @@ function addModalFunc(id) {
     });
 }
 
-
-
-
 render(posts)
+
+function heartLikeBnt(idx) {
+    console.log(idx);
+}
+
+// const addHeartLike = document.querySelector('#addHeartLike');
+
+// addHeartLike.addEventListener('click', (e) => {
+//     console.log(e.target);
+// })

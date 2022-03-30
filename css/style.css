@@ -19,21 +19,74 @@ body {
 
 .header {
     position: fixed;
-    left: 10%;
+    left: 0;
     top: 0;
     padding: 0 20px;
     height: 60px;
-    border-bottom: 1px solid #333;
+    /* border-bottom: 1px solid #333; */
     background-color: #fff;
     z-index: 10;
-    width: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.header__logo {
+    width: 123px;
+    height: 29px;
+}
+
+.header__btn-box {
+    display: flex;
+    align-items: center;
 }
 
 .header__btn {
     border: none;
     background-color: transparent;
     outline: none;
+    margin-right: 16px;
 }
+
+.header__btn .bx {
+    font-size: 30px;
+}
+
+.header__avatarme {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+/* header input */
+
+.header__form {
+
+}
+.header__input-box {
+    background-color: #efefef;
+    padding: 4px 16px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.bx-search {
+}
+.header__input {
+    padding: 2px 5px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+}
+
+
+
+
+
+/* posts >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 .posts {
     padding-top: 150px;
@@ -224,11 +277,73 @@ a {
     margin-left: 4px;
     margin-right: 4px;
     background-color: #262626;
-    /* background: rgba(var(--i1d,38,38,38),1); */
-    /* display: inline; */
 
 }
 
 .modal__main {
     padding: 16px;
+}
+
+.modal__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0 30px 0;
+    border-top: 1px solid #333;
+}
+
+.modal__message {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.modal__message .bx {
+    font-size: 30px;
+}
+
+.modal__bookmark {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.modal__bookmark .bx {
+    font-size: 30px;
+}
+
+
+.modal__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+
+.modal__smile {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.modal__smile .bx {
+    font-size: 26px;
+}
+
+.modal__post {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: rgb(2, 235, 235);
+    font-weight: 600;
+    opacity: 0.3;
+    transition: all 0.3s ease;
+}
+
+.modal__post:hover {
+    opacity: 1;
 }
