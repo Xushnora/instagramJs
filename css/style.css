@@ -108,7 +108,7 @@ body {
 }
 
 .posts__img {
-    width: 293px;
+    width: 100%;
     height: 293px;
     object-fit: cover;
 }
@@ -346,4 +346,9 @@ a {
 
 .modal__post:hover {
     opacity: 1;
+}
+
+.imgs__menidabox {
+    display: flex;
+    overflow-x: scroll;
 }

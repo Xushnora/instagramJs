@@ -120,9 +120,11 @@ function addModalFunc(id) {
             } else if(item.type == "imgs") {
                 box.innerHTML = `
                 <div class="d-flex row bigBox">
-                <div class="col-6 media__box">
-                    <img class="posts__img" src="${item.media[0]}" alt="edu">
-                </div>
+                    <div class="col-6 media__box imgs__menidabox">
+                        <img class="posts__img" src="${item.media[0]}" alt="edu">
+                        <img class="posts__img" src="${item.media[1]}" alt="edu">
+                        <img class="posts__img" src="${item.media[2]}" alt="edu">
+                    </div>
                 <div class="col-6 modal__desc-box">
                     <div class="modal__header">
                         <a href="#">
@@ -207,8 +209,8 @@ function addModalFunc(id) {
                     </div>
                     <div class = "modal__footer">
                     <div class = "modal__footLeft">
-                        <button  class = "modal__message" onclick = "heartLikeBnt(${item.like})"><i class='bx bx-heart'></i></button>
-                        <button  class = "modal__message"><i class='bx bx-message-rounded bx-flip-horizontal' ></i></button>
+                        <button  class = "modal__message" onclick = "heartLikeBnt(${item.id})"><i class='bx bx-heart'></i></button>
+                        <button  class = "modal__message" id = "addHeartComment"><i class='bx bx-message-rounded bx-flip-horizontal' ></i></button>
                         <button  class = "modal__message"><i class='bx bxl-telegram'></i></button>
                     </div>
                         <div class = "modal__footRight">
@@ -233,11 +235,29 @@ function addModalFunc(id) {
 
 render(posts)
 
-function heartLikeBnt(idx) {
-    console.log(idx);
+function heartLikeBnt(id) {
+    console.log(id);
+    posts.forEach(item => {
+        if(item.like == id) {
+            like++;
+            console.log(like);
+            if (item.like == id) {
+                like--;
+                console.log(like);
+            }
+        }
+    });
 }
 
-// const addHeartLike = document.querySelector('#addHeartLike');
+// let modal__bookmark = document.querySelector('.modal__bookmark');
+
+// modal__bookmark.addEventListener('click', (e)=>{
+//     console.log(e.target);
+// })
+
+// const addHeartLike = document.querySelector('#addHeartComment');
+
+// console.log(addHeartLike);
 
 // addHeartLike.addEventListener('click', (e) => {
 //     console.log(e.target);
