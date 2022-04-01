@@ -2,10 +2,10 @@ const posts = [
     {
         id: 1,
         media: ["img/edu-branding.jpg"],
-        desc: `«Najot Ta'lim» markazi «Eng yaxshi IT maktab» nominatsiyasi g'olibi bo'ldi!
-        O'zbekistondagi xususiy ta'lim salohiyatini yanada rivojlantirish maqsadida EduOn va Oliygoh.uz hamkorligida "Edu-Branding" tanlovi e'lon qilingan edi.
-        🎗 Tanlov natijalariga ko'ra, 3257 ta ovoz bilan «Najot Ta'lim» markazi «Eng yaxshi IT maktab» nominatsiyasining g'olibi deb topildi.
-        Ushbu tanlovda «Najot Ta'lim» markaziga ishonch bildirib, o'z ovozini bergan insonlarga va tanlov tashkilotchilariga jamoamiz nomidan samimiy minnatdorchilik bildiramiz. 😊
+        desc: `<span> «Najot Ta'lim» markazi «Eng yaxshi IT maktab» nominatsiyasi g'olibi bo'ldi! </span>
+        <p> O'zbekistondagi xususiy ta'lim salohiyatini yanada rivojlantirish maqsadida EduOn va Oliygoh.uz hamkorligida "Edu-Branding" tanlovi e'lon qilingan edi.</p>
+        <p>🎗 Tanlov natijalariga ko'ra, 3257 ta ovoz bilan «Najot Ta'lim» markazi «Eng yaxshi IT maktab» nominatsiyasining g'olibi deb topildi.</p>
+       <p> Ushbu tanlovda «Najot Ta'lim» markaziga ishonch bildirib, o'z ovozini bergan insonlarga va tanlov tashkilotchilariga jamoamiz nomidan samimiy minnatdorchilik bildiramiz. 😊</p>
         🚀 Siz tomoningizdan bildirilgan ushbu ishonchni oqlash uchun doimo harakat qilamiz.`,
         like: 80,
         comment: 15,
@@ -17,16 +17,23 @@ const posts = [
         id: 2,
         media:  ["media/MUSOBAQA tgg(Android).mp4"],
         desc: `Dizayn battle g'oliblari aniqlandi. Bir necha kun oldin xabar berganimizdek, 26-mart kuni markazimizning Xadra filialida «Najot Ta'lim» va «Progress Academy» o'quvchilari o'rtasida dizayn yo'nalishi bo'yicha battle bo'lib o'tdi.
-        Musobaqa shartlariga ko'ra, berilgan 5 soat muddat ichida o'quvchilarga film uchun poster tayyorlash vazifasi topshirildi.
-        ⚖️ O'quvchilarning ishlarini odilona baholash uchun har bir ishtirokchiga alohida ID raqam berildi va ular shu orqali o'z ishlarini ikki markaz ustozlaridan tashkil topgan hakamlarga yuborib, ular tomonidan holis baholandi.
-        ⚡️ Yakuniy natijalarga ko'ra:
-        1-o'rin: Olimova Nasibaxon — Xpen tablet;
-        2-o'rin: Jo'rayev Og'abek — "Karura2" hamda "Griffin" kompaniyalari tomonidan ishlab chiqarilgan klaviatura va sichqoncha;
-        3-o'rin: Sharipov Javohir — "Beats" simsiz kompyuter quloqchini;
-        4-o'rin: Xoshimov Shodiyor — "Hoco" kompaniyasining simsiz quloqchini;
-        5-o'rin: Mohir G'aniyevga esa, Powerbank kabi qimmatbaho sovg'alar topshirildi.
-        Musobaqa jarayonini quyidagi qiziqarli rolik orqali oz bo'lsa-da his qilishingiz mumkin. 😎
-        Go'lib o'quvchilarning kelajakdagi faoliyatlarida ham omad yor bo'lishiga tilakdoshmiz. Shu o'rinda ushbu do'stona musobaqani tashkil etishdagi xizmatlari uchun markazimiz ustozlari Dilshod Ismoilov, Jahongir G'ulomov, Baxtiyor Nodirqulov, Sunnatbek Bobokulov va Progress Academy o'quv markazi ustozi Abdulloh Sur'atovlarga alohida minnatdorchiligimizni bildiramiz. 📞 +998712001123`,
+        <p>Musobaqa shartlariga ko'ra, berilgan 5 soat muddat ichida o'quvchilarga film uchun poster tayyorlash vazifasi topshirildi.</p>
+        <p>⚖️ O'quvchilarning ishlarini odilona baholash uchun har bir ishtirokchiga alohida ID raqam berildi va ular shu orqali o'z ishlarini ikki markaz ustozlaridan tashkil topgan hakamlarga yuborib, ular tomonidan holis baholandi.</p>
+        <p>⚡️ Yakuniy natijalarga ko'ra:</p>
+        <p>1-o'rin: Olimova Nasibaxon — Xpen tablet;</p> 
+
+        <p>2-o'rin: Jo'rayev Og'abek — "Karura2" hamda "Griffin" kompaniyalari tomonidan ishlab chiqarilgan klaviatura va sichqoncha;</p> 
+
+        <p>3-o'rin: Sharipov Javohir — "Beats" simsiz kompyuter quloqchini;</p> 
+
+        <p>4-o'rin: Xoshimov Shodiyor — "Hoco" kompaniyasining simsiz quloqchini;</p> 
+
+        <p>5-o'rin: Mohir G'aniyevga esa, Powerbank kabi qimmatbaho sovg'alar topshirildi.</p> 
+
+        <p>Musobaqa jarayonini quyidagi qiziqarli rolik orqali oz bo'lsa-da his qilishingiz mumkin. 😎</p> 
+
+        <p>Go'lib o'quvchilarning kelajakdagi faoliyatlarida ham omad yor bo'lishiga tilakdoshmiz. Shu o'rinda ushbu do'stona musobaqani tashkil etishdagi xizmatlari uchun markazimiz ustozlari Dilshod Ismoilov, Jahongir G'ulomov, Baxtiyor Nodirqulov, Sunnatbek Bobokulov va Progress Academy o'quv markazi ustozi Abdulloh Sur'atovlarga alohida minnatdorchiligimizni bildiramiz.</p> 
+        <p> 📞 +998712001123 </p>`,
         like: 304,
         comment: 4,
         save: false,

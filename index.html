@@ -34,13 +34,154 @@
                 <button class="header__btn"><i class='bx bx-message-square-add'></i></button>
                 <button class="header__btn"><i class='bx bx-compass'></i></button>
                 <button class="header__btn"><i class='bx bx-heart'></i></button>
-                <button class="header__btn"><img class="header__avatarme" src="img/najot.jpg" alt="najot"></button>
+                <button class="header__btn"><img class="header__avatarme" src="img/avatar-me.jpg" alt="avatar"></button>
             </div>
            </div>
         </div>
+        <div class="main">
+            <div class="container">
+               <div class="d-flex">
+                    <div class="col-5 main-img-box">
+                       <div class="main-img">
+                            <img src="./img/najot.jpg" alt="avatar">
+                       </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="desc-name">
+                            <h2 class="name-nj">najottalim</h2>
+                            <button class="ms-btn">Message</button>
+                            <button class="user-check"><i class='bx bxs-user-check'></i></button>
+                            <button class="arrow"><i class='bx bx-chevron-down'></i></button>
+                            <button class="dots-btn"><i class='bx bx-dots-horizontal-rounded'></i></button>
+                        </div>
+                        <div class="followers">
+                            <p class="follow-posts"><span class="numb"> 1,044 </span> posts</p> 
+                            <a class="follow-posts" href="#"> <span class="numb">104k</span> followers</a>
+                            <a class="follow-posts" href="#"> <span class="numb">5</span> following</a>
+                        </div>
+                        <div class="site-desc">
+                            <h4 class="site-name">Najot Ta'lim</h4>
+                            <p class="site-text">Education</p>
+                            <p class="site-texts">💡 Zamonaviy kasblar markazi</p>
+                            <p class="site-texts">👉 YouTube kanalimizga o'ting</p>
+                            <a class="followed-link" href="#">www.youtube.com/c/najottalim</a>
+                            <a class="follow-link" href="#">Followed by ...</a>
+                        </div>
+                    </div>
+               </div>
+               <div class="carousel">
+                   <ul class="caraousel__list">
+                       <li class="carousel__item">
+                           <div class="cavans-img">
+                                <img class="cr-img" src="./img/img1.jpg" alt="info">
+                           </div>
+                           <p class="cr-text">Master-klass</p>
+                       </li>
+                       <li class="carousel__item">
+                            <div class="cavans-img">
+                                <img class="cr-img" src="./img/img2.jpg" alt="info">
+                            </div>
+                            <p class="cr-text">Yangiliklar</p>
+                        </li>
+                        <li class="carousel__item">
+                            <div class="cavans-img">
+                                <img class="cr-img" src="./img/img3.jpg" alt="info">
+                            </div>
+                            <p class="cr-text">Dasturlash</p>
+                        </li>
+                        <li class="carousel__item">
+                            <div class="cavans-img">
+                                <img class="cr-img" src="./img/img4.jpg" alt="info">
+                            </div>
+                            <p class="cr-text">Master-klass</p>
+                        </li>
+                        <li class="carousel__item">
+                            <div class="cavans-img">
+                                <img class="cr-img" src="./img/img5.jpg" alt="info">
+                            </div>
+                            <p class="cr-text">Master-klass</p>
+                        </li>
+                        <li class="carousel__item">
+                            <div class="cavans-img">
+                                <img class="cr-img" src="./img/img6.jpg" alt="info">
+                            </div>
+                            <p class="cr-text">Repost</p>
+                        </li>
+                        <li class="carousel__item">
+                            <div class="cavans-img">
+                                <img class="cr-img" src="./img/img7.jpg" alt="info">
+                            </div>
+                            <p class="cr-text">SMM</p>
+                        </li>
+                        <li class="carousel__item">
+                            <div class="cavans-img">
+                                <img class="cr-img" src="./img/img8.jpg" alt="info">
+                            </div>
+                            <p class="cr-text">Master-klass</p>
+                        </li>
+                        <li class="carousel__item">
+                            <div class="cavans-img">
+                                <img class="cr-img" src="./img/img9.jpg" alt="info">
+                            </div>
+                            <p class="cr-text">Master-klass</p>
+                        </li>
+                        <li class="carousel__item">
+                            <div class="cavans-img">
+                                <img class="cr-img" src="./img/img10.jpg" alt="info">
+                            </div>
+                            <p class="cr-text">Master-klass</p>
+                        </li>
+                        <li class="carousel__item">
+                            <div class="cavans-img">
+                                <img class="cr-img" src="./img/img12.jpg" alt="info">
+                            </div>
+                            <p class="cr-text">Master-klass</p>
+                        </li>
+                        <li class="carousel__item">
+                            <div class="cavans-img">
+                                <img class="cr-img" src="./img/img13.jpg" alt="info">
+                            </div>
+                            <p class="cr-text">Master-klass</p>
+                        </li>
+                   </ul>
+               </div>
+            </div>
+        </div>
         <div class="container">
+            <div class="category">
+                <div class="posts-tab">
+                    <button class="posts-btn">
+                        <i class='bx bx-grid'></i>
+                        <span>posts</span>
+                    </button>
+                </div>
+                <div class="saved-tab">
+                    <button class="saved-btn">
+                        <i class='bx bx-bookmark'></i>
+                        <span>saved</span>
+                    </button>
+                </div>
+            </div>
             <div class="posts">
                 <ul class="posts__list row" id="postList">
+                </ul>
+            </div>
+            <div class="saved">
+                <ul class="saved__list row" id="savedList">
+                    <!-- <li class="posts__item col-xs-4 col-sm-4 col-md-4">
+                        <div class="posts__img-box">
+                            <div class="colors">
+                            </div>
+                            <div class="video-play">
+                            <i class='bx bx-play video-bx'></i>
+                            </div>
+                            <video class="posts__vedio" src="media/alohida-mavzu.mp4"></video>
+                            <div class="btn__style">
+                                <button class="btn__heart"><i class='bx bx-play video-bx'></i><span class="face-result">234</span></button>
+                                <button class="btn__comment"><i class='bx bxs-message-rounded comment-face'></i><span class="face-result">34</span></button>
+                            </div>
+                        </div>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -48,7 +189,7 @@
   
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+    <div class="modal-dialog modal-xl">
       <div class="modal-content">
         <div class="modal-body" id="modalBody">
             <!-- <div class="d-flex row bigBox">
